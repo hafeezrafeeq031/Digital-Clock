@@ -1,10 +1,40 @@
-.clock{
-    display: flex;
-    font-size: 3rem;
-    text-align: center;
-   
-    
+*{
+    background-color: antiquewhite;
 }
 
 
+.clock {
 
+    margin: 0 auto;
+    display: flex;
+    
+    font-size: 6.5rem;
+    text-align: center;
+    font-family: clock-font;
+    width: 280px;
+    height: 120px;
+    background-color: rgb(61, 61, 61);
+    border: 8px solid black;
+    padding: 8px 8px 18px 18px;
+    
+}
+
+div{
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 0, 0);
+   /* margin: 8px 8px ; */
+  
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    font-size: 80px;
+    
+}
+
+@font-face {
+    font-family: clock-font;
+    src: url(Open\ 24\ Display\ St.ttf);
+}
